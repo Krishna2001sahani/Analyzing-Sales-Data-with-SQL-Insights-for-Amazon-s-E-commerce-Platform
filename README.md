@@ -1,41 +1,57 @@
-# Analyzing Sales Data with SQL: Insights for Amazon's E-commerce Platform  
+# 📊 Amazon Sales Data Analysis  
 
-## 📄 Project Overview  
-This project involves analyzing Amazon's sales dataset to solve business queries using SQL. The aim is to derive actionable insights related to product pricing, discounts, reviews, and categories to support data-driven decision-making.  
+This project demonstrates the use of SQL to analyze sales data for Amazon, solving real-world business problems related to product pricing, discounts, and customer reviews.  
 
-## 📊 Dataset  
-The dataset contains detailed information about:  
-- Product names  
-- Actual and discounted prices  
-- Discount percentages  
-- Reviews and ratings  
-- Product categories  
+---
+
+## 🚀 Project Objectives  
+
+1. To utilize SQL for extracting actionable insights from e-commerce data.  
+2. To address specific business queries provided by management.  
+3. To present findings in a structured and visually appealing format.  
+
+---
+
+## 📂 Dataset Details  
+
+The dataset contains:  
+- Product names, prices, discounts, and categories.  
+- Customer reviews and ratings.  
 
 **Dataset Link**: [Download Here](https://drive.google.com/file/d/1hJOXNpOUXOpyjsrBt1O8MyIJHfWgzakS/view)  
 
-## 🛠 Tools Used  
-- SQL Database Environment (e.g., MySQL, PostgreSQL, SQLite)  
-- SQL Query Editor (SQL Workbench or any preferred tool)  
-- PowerPoint for presentation of findings  
+---
 
-## 🧑‍💻 Problem Statements  
-The project addresses the following business queries:  
+## 🔍 Problem Statements  
+
+This project answers the following key business questions:  
 
 1. List all products with a discounted price below ₹500.  
-2. Find products with a discount percentage of 50% or more.  
-3. Retrieve all products where the name contains the word "Cable."  
-4. Display the difference between the average actual price and discounted price for each product.  
-5. Query reviews mentioning "fast charging" in their content.  
-6. Identify products with a discount percentage between 20% and 40%.  
-7. Find products priced above ₹1,000 with ratings of 4 stars or higher.  
-8. Identify products where the discounted price ends with a 9.  
-9. Display review content containing words like "worst," "waste," "poor," or "not good."  
-10. List all products where the category includes "Accessories."  
+2. Identify products with a discount percentage of 50% or more.  
+3. Retrieve products where the name includes "Cable."  
+4. Calculate the average price difference between actual and discounted prices.  
+5. Query reviews mentioning "fast charging."  
+6. Find products with discount percentages between 20% and 40%.  
+7. Identify products priced above ₹1,000 with a rating of 4 stars or more.  
+8. List products where the discounted price ends with a 9.  
+9. Extract reviews with negative sentiments (e.g., "worst," "waste," "poor," "not good").  
+10. Retrieve products categorized as "Accessories."  
 
-## 📜 Queries  
-Here is an example SQL query for one of the problem statements:  
+---
 
-**Problem 1**: List all products with a discounted price below ₹500.  
+## 🛠 Tools & Technologies  
+
+- **SQL**: Core language for data extraction and analysis.  
+- **Database Tool**: MySQL, PostgreSQL, or any preferred environment.  
+- **Presentation**: PowerPoint for visually presenting the results.  
+
+---
+
+## 🧑‍💻 Sample SQL Query  
+
+Here’s an example query for one of the problems:  
+
+**Problem**: List all products with a discounted price below ₹500.  
 ```sql
 SELECT Product_Name, Discounted_Price
 FROM Products
